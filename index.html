@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person">Name</label>
+            <input id="person" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="date">Today's Date:</label>
+            <input id="date" class="form-control" type="date">
+          </div>
+
+          <div class="food">
+            <label for="fav-food">What is your favorite food?</label></br>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="fav-food" value="chinese" checked>Chinese
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="fav-food" value="american" checked>American
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="fav-food" value="mexican" checked>Mexican
+            </label>
+          </div>
+
+        <div>
+          <label for="fav-music">What is your favorite music?</label>
+        </div>
+        <select class="form-control" id="beverage">
+          <option>Country</option>
+          <option>Pop</option>
+          <option>Hip-hop</option>
+          <option>Rap</option>
+        </select>
+
+        <div class="form-group">
+          <label for="color">What is your favorite color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+
+      </br>
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>Letter</h1>
+         <p>
+           Dear, <span class="person"></span></p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <p id="conformation">Conformation of your appointment is as follows:</p>
+           <p>What is your favorit food: <span class="fav-food"></span></p>
+           <p>Date: <span class="date"></span></p>
+           <p>Time: <span class="time"></span></p>
+
+           <p>Sincerely</p>
+           <p>Linda</p>
+
+
+         <!-- <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>. -->
+      </div>
+    </div>
+  </body>
+</html>
