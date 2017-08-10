@@ -1,3 +1,26 @@
 #story {
   display: none;
 }
+#person {
+  background-color: lightpink;
+  color: purple;
+  font-style: italic;
+}
+#blanks {
+  background-color: lightgreen;
+}
+
+.radio {
+  background-color: pink;
+  color: purple;
+}
+
+.form-group {
+  background-color: lightyellow;
+  color: purple;
+  font-style: italic;
+}
+#music {
+  color: blue;
+  background-color: lightblue;
+}
